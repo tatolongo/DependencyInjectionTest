@@ -28,9 +28,7 @@ namespace DependencyInjection
             Console.WriteLine(transportType.TypeOfTransport());
 
             var transportCost = CostsOfTravel("car");
-            Console.WriteLine(transportCost.TotalCost(260));
-
-            
+            Console.WriteLine(transportCost.TotalCost(260)); 
         }
     }
 }
